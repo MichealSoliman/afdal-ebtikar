@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أفضل ابتكار · مطابخ وديكورات فاخرة</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="أفضل ابتكار لتصميم وتنفيذ المطابخ الحديثة والكلاسيكية وغرف الملابس والديكورات الداخلية بخامات عالية الجودة." />
+  <meta name="keywords" content="مطابخ, ديكورات, غرف ملابس, تكسيات جدران, بديل الخشب, تصميم داخلي, أفضل ابتكار" />
+  <link rel="canonical" href="https://afdal-ebtikar.com/" />
+  <meta property="og:title" content="أفضل ابتكار · مطابخ وديكورات فاخرة" />
+  <meta property="og:description" content="نصمم مطبخ أحلامك بأعلى معايير الجودة والإبداع." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://afdal-ebtikar.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Fonts & Tailwind -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    * { font-family: 'Cairo', sans-serif; scroll-behavior: smooth; }
+    body { background: #ffffff; color: #1F2937; }
+    .bg-section { background-color: #F8FAFC; }
+    .text-primary { color: #0B5ED7; }
+    .text-secondary { color: #D62828; }
+    .border-primary { border-color: #0B5ED7; }
+    .bg-primary { background-color: #0B5ED7; }
+    .bg-secondary { background-color: #D62828; }
+    .hover-bg-secondary:hover { background-color: #b71c1c; }
+    .shadow-soft { box-shadow: 0 12px 30px rgba(0,0,0,0.06); }
+    .shadow-glass { box-shadow: 0 8px 32px rgba(0,0,0,0.04); }
+    .glass { backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); background: rgba(255,255,255,0.7); }
+    .rounded-xl { border-radius: 1.25rem; }
+    .rounded-2xl { border-radius: 2rem; }
+    .transition-smooth { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+    .hover-scale:hover { transform: scale(1.02); }
+    .hover-zoom img { transition: transform 0.5s ease; }
+    .hover-zoom:hover img { transform: scale(1.06); }
+    .nav-blur { background: rgba(255,255,255,0.82); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.3); }
+    .animate-fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .animate-fade-left { opacity: 0; transform: translateX(-20px); animation: fadeLeft 0.6s ease forwards; }
+    @keyframes fadeLeft { to { opacity: 1; transform: translateX(0); } }
+    .ripple { position: relative; overflow: hidden; }
+    .ripple::after { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255,255,255,0.3) 0%, transparent 60%); opacity: 0; transition: opacity 0.4s; pointer-events: none; }
+    .ripple:hover::after { opacity: 1; }
+    .faq-accordion summary { list-style: none; cursor: pointer; }
+    .faq-accordion summary::-webkit-details-marker { display: none; }
+    .faq-accordion[open] summary .chevron { transform: rotate(180deg); }
+    .counter-number { font-variant-numeric: tabular-nums; }
+
+    /* masonry grid for projects */
+    .masonry { column-count: 3; column-gap: 1.5rem; }
+    .masonry > div { break-inside: avoid; margin-bottom: 1.5rem; }
+    @media (max-width: 768px) { .masonry { column-count: 2; } }
+    @media (max-width: 480px) { .masonry { column-count: 1; } }
+
+    /* testimonials slider - simple manual */
+    .slider-track { display: flex; transition: transform 0.4s ease; }
+    .testimonial-card { min-width: 100%; padding: 0 0.5rem; }
+    @media (min-width: 768px) { .testimonial-card { min-width: 50%; } }
+    @media (min-width: 1024px) { .testimonial-card { min-width: 33.333%; } }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="fixed top-0 left-0 right-0 z-50 nav-blur transition-smooth" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center h-16 md:h-20">
+    
+    <!-- Left side: Logo (Visible on all screens) -->
+    <div class="flex items-center justify-start gap-2 flex-1 md:w-1/4">
+      <img src="../img/logo.png" alt="Logo" class="h-10 w-auto"/>
+      <!-- <span class="text-xl sm:text-2xl font-extrabold text-primary tracking-tight whitespace-nowrap">أفضل ابتكار</span>
+      <span class="text-xs font-light text-gray-400 hidden sm:inline whitespace-nowrap">· مطابخ وديكور</span> -->
+    </div>
+    
+    <!-- Center: Desktop Navigation (Hidden on mobile) -->
+    <nav class="hidden md:flex items-center justify-center gap-0 text-sm font-semibold text-gray-700 flex-1">
+      <!-- Home -->
+      <a href="../index.html" class="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:text-primary group whitespace-nowrap">
+        الرئيسية
+        <span class="absolute inset-0 rounded-lg bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+      </a>
+      <span class="text-gray-300 text-xs">|</span>
+      
+      <!-- About -->
+      <a href="../about/" class="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:text-primary group whitespace-nowrap">
+        من نحن
+        <span class="absolute inset-0 rounded-lg bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+      </a>
+      <span class="text-gray-300 text-xs">|</span>
+      
+      <!-- Services -->
+      <a href="#" class="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:text-primary group whitespace-nowrap">
+        الخدمات
+        <span class="absolute inset-0 rounded-lg bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+      </a>
+      <span class="text-gray-300 text-xs">|</span>
+      
+      <!-- Projects with Dropdown -->
+     
+      <div class="relative group">
+        <a href="#" class="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:text-primary group flex items-center gap-1 whitespace-nowrap">
+          منتاجتنا 
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-hover:rotate-180">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+          <span class="absolute inset-0 rounded-lg bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+        </a>
+        <!-- Dropdown Menu -->
+        <div class="absolute right-0 mt-2 w-56 bg-white rounded-2xl shadow-xl border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-right group-hover:scale-100 scale-95">
+          <div class="py-2">
+            <a href="../kitchens/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-primary/5 hover:text-primary transition-colors rounded-lg mx-1"> مطابخ اسطح رخام</a>
+            <a href="../wardrobes-closets/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-primary/5 hover:text-primary transition-colors rounded-lg mx-1">  خزائن وغرف دريسنج رووم</a>
+            <a href="../decor-and-woodwork/" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-primary/5 hover:text-primary transition-colors rounded-lg mx-1"> ديكورات وأعمال خشبية</a>
+            <hr class="my-1 border-gray-100"/>
+            
+          </div>
+        </div>
+      </div>
+      <span class="text-gray-300 text-xs">|</span>
+      
+      
+      
+      
+      
+      <span class="text-gray-300 text-xs">|</span>
+      
+     
+   
+      
+      <!-- Contact -->
+      <a href="../contact/" class="relative px-3 py-2 rounded-lg transition-all duration-300 hover:bg-primary/10 hover:text-primary group whitespace-nowrap">
+        اتصل بنا
+        <span class="absolute inset-0 rounded-lg bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+      </a>
+    </nav>
+    
+    <!-- Right side: CTA Button + Mobile Menu Button -->
+    <div class="flex items-center justify-end gap-3 flex-1 md:w-1/4">
+      <!-- CTA Button (Hidden on small mobile, visible on tablet+) -->
+      <a href="tel:090000000" class="hidden sm:inline-block bg-secondary text-white px-4 md:px-5 py-2 rounded-full text-sm shadow-md hover:bg-red-700 transition-smooth whitespace-nowrap hover:shadow-lg hover:scale-105 transform transition-all duration-300">
+        احصل على عرض سعر
+      </a>
+      
+      <!-- Mobile menu button (Visible only on mobile) -->
+      <button id="menuBtn" class="md:hidden text-gray-700 focus:outline-none p-1 hover:bg-gray-100 rounded-lg transition-colors flex-shrink-0" aria-label="القائمة">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="md:hidden bg-white/95 backdrop-blur-lg border-t border-gray-100 hidden px-4 pb-6 pt-2 space-y-3 text-base font-medium">
+    <a href="../index.html" class="block hover:text-primary transition-colors py-1">الرئيسية</a>
+    <a href="../about/" class="block hover:text-primary transition-colors py-1">من نحن</a>
+    <a href="#" class="block hover:text-primary transition-colors py-1">الخدمات</a>
+    
+     <!-- Mobile Dropdown -->
+    <details class="group">
+      <summary class="flex items-center justify-between cursor-pointer list-none hover:text-primary transition-colors py-1">
+        منتاجتنا 
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300 group-open:rotate-180">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </summary>
+      <div class="pr-4 mt-2 space-y-2 text-sm text-gray-600">
+        <a href="../kitchens/" class="block hover:text-primary transition-colors py-1"> مطابخ اسطح رخام</a>
+        <a href="../wardrobes-closets/" class="block hover:text-primary transition-colors py-1"> خزائن وغرف دريسنج رووم</a>
+        <a href="../decor-and-woodwork/" class="block hover:text-primary transition-colors py-1">  ديكورات وأعمال خشبية</a>
+
+      </div>
+    </details>
+    
+    <a href="#gallery" class="block hover:text-primary transition-colors py-1">المعرض</a>
+    <a href="#faq" class="block hover:text-primary transition-colors py-1">الأسئلة</a>
+    <a href="../contact/" class="block hover:text-primary transition-colors py-1">اتصل بنا</a>
+    <a href="tel:0900000" class="block bg-secondary text-white text-center py-2.5 rounded-full hover:bg-red-700 transition-colors mt-2">احصل على عرض سعر</a>
+  </div>
+</header>
+  <main class="pt-16 md:pt-20">
+
+<!-- Hero Section with Sliding Background (4 Images - 3 Seconds) -->
+<section id="home" class="relative min-h-[90vh] flex items-center overflow-hidden">
+  <!-- Background Slider -->
+  <div class="absolute inset-0 w-full h-full">
+    <div class="relative w-full h-full">
+      <!-- Slide 1 -->
+      <div class="slide absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ease-in-out" 
+           style="background-image: url('../img/hero (2).webp'); opacity: 1;">
+      </div>
+     
+      
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 bg-black/35"></div>
+    </div>
+  </div>
+
+  <!-- Content (Same as before) -->
+<!-- Services Content -->
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white py-20 w-full z-10">
+    <div class="max-w-3xl animate-fade-up">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+            خدماتنا
+        </h1>
+
+        <p class="text-lg md:text-xl mt-4 text-gray-100 max-w-2xl leading-8">
+            نقدم مجموعة متكاملة من خدمات تصميم وتنفيذ المطابخ والديكورات الداخلية، بدءًا من التصميم ثلاثي الأبعاد واختيار الخامات، وصولًا إلى التصنيع والتركيب باحترافية عالية، لنضمن لك الجودة، الأناقة، والالتزام بأدق التفاصيل.
+        </p>
+
+        <div class="flex flex-wrap gap-4 mt-8">
+            <a href="#services" class="bg-secondary hover:bg-red-700 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition-smooth ripple">
+                استكشف خدماتنا
+            </a>
+
+            <a href="tel:00000000" class="bg-white/20 backdrop-blur-sm hover:bg-white/30 border border-white/40 px-8 py-3 rounded-full text-lg font-semibold transition-smooth">
+                اطلب استشارة مجانية
+            </a>
+        </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="grid grid-cols-3 gap-4 sm:gap-8 mt-16 max-w-2xl bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+        <div>
+            <span class="block text-3xl font-bold">10+</span>
+            <span class="text-sm text-gray-200">خدمات متخصصة</span>
+        </div>
+
+        <div>
+            <span class="block text-3xl font-bold">1000+</span>
+            <span class="text-sm text-gray-200">مشروع ناجح</span>
+        </div>
+
+        <div>
+            <span class="block text-3xl font-bold">98%</span>
+            <span class="text-sm text-gray-200">رضا العملاء</span>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+   <section id="services" class="py-24 bg-[#faf8f6]">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Heading -->
+        <div class="text-center mb-14">
+            <span class="text-primary font-bold">
+                منتجاتنا
+            </span>
+
+            <h2 class="text-4xl font-black mt-3">
+                منتجات مصممة
+                <span class="text-primary">لتفاصيل منزلك</span>
+            </h2>
+
+            <p class="text-gray-500 mt-4 max-w-2xl mx-auto">
+                نقدم أفضل حلول المطابخ والخزائن والديكورات الداخلية بتصاميم
+                عصرية وخامات عالية الجودة.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-12 gap-6">
+
+             <!-- Sidebar -->
+            <div class="lg:col-span-3">
+
+                <div class="bg-[#194c82] text-white rounded-xl border p-8 h-full flex flex-col">
+
+                    <span class="text-primary font-bold">
+                        منتجاتنا
+                    </span>
+
+                    <h3 class="text-4xl font-black leading-relaxed mt-3">
+                        منتجات مصممة
+                        لتفاصيل منزلك
+                    </h3>
+
+                    <p class="text-gray-500 mt-5 leading-8">
+                        نصمم وننفذ المطابخ والخزائن وغرف الملابس والديكورات
+                        الداخلية بأفضل الخامات وأحدث التصاميم.
+                    </p>
+
+                    <div class="space-y-6 mt-8">
+
+                        <div class="border-t pt-5">
+                            <h4 class="font-bold">
+                                خامات مختارة
+                            </h4>
+
+                            <p class="text-gray-500 text-sm mt-2">
+                                أفضل الأخشاب والإكسسوارات العالمية.
+                            </p>
+                        </div>
+
+                        <div class="border-t pt-5">
+                            <h4 class="font-bold">
+                                تصميم حسب الطلب
+                            </h4>
+
+                            <p class="text-gray-500 text-sm mt-2">
+                                تصميم يناسب مساحة منزلك بالكامل.
+                            </p>
+                        </div>
+
+                        <div class="border-t pt-5">
+                            <h4 class="font-bold">
+                                تنفيذ وتركيب
+                            </h4>
+
+                            <p class="text-gray-500 text-sm mt-2">
+                                تنفيذ احترافي مع ضمان على الجودة.
+                            </p>
+                        </div>
+
+                    </div>
+
+                
+                </div>
+
+            </div>
+
+            <!-- الصور -->
+            <div class="lg:col-span-9">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <!-- Card -->
+                    <a href="#" class="group relative overflow-hidden rounded-xl h-[350px]">
+
+                        <img src="../img/hero (1).webp"
+                             class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                        <div class="absolute bottom-6 right-6">
+
+                            <h3 class="text-white text-3xl font-black">
+                                المطابخ
+                            </h3>
+
+                        </div>
+
+                        <div class="absolute left-5 bottom-5 w-12 h-12 border border-white flex items-center justify-center text-white group-hover:bg-[#d62a2a] transition">
+
+                            <i data-lucide="arrow-left"></i>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Card -->
+                    <a href="#" class="group relative overflow-hidden rounded-xl h-[350px]">
+
+                        <img src="../img/hero (2).webp"
+                             class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                        <div class="absolute bottom-6 right-6">
+
+                            <h3 class="text-white text-3xl font-black">
+                                الخزائن وغرف الملابس
+                            </h3>
+
+                        </div>
+
+                        <div class="absolute left-5 bottom-5 w-12 h-12 border border-white flex items-center justify-center text-white group-hover:bg-[#d62a2a] transition">
+
+                            <i data-lucide="arrow-left"></i>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Card -->
+                    <a href="#" class="group relative overflow-hidden rounded-xl h-[350px]">
+
+                        <img src="../img/WhatsApp Image 2026-07-13 at 10.18.18 AM.jpeg"
+                             class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                        <div class="absolute bottom-6 right-6">
+
+                            <h3 class="text-white text-3xl font-black">
+                                الديكورات الخشبية
+                            </h3>
+
+                        </div>
+
+                        <div class="absolute left-5 bottom-5 w-12 h-12 border border-white flex items-center justify-center text-white group-hover:bg-[#d62a2a] transition">
+
+                            <i data-lucide="arrow-left"></i>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Card -->
+                    <a href="#" class="group relative overflow-hidden rounded-xl h-[350px]">
+
+                        <img src="../img/hero (4).webp"
+                             class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+                        <div class="absolute bottom-6 right-6">
+
+                            <h3 class="text-white text-3xl font-black">
+                                غرف النوم
+                            </h3>
+
+                        </div>
+
+                        <div class="absolute left-5 bottom-5 w-12 h-12 border border-white flex items-center justify-center text-white group-hover:bg-[#d62a2a] transition">
+
+                            <i data-lucide="arrow-left"></i>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+           
+
+        </div>
+
+    </div>
+</section>
+
+
+   <!-- Our Process & Quality Section -->
+<section class="py-20 bg-white relative overflow-hidden">
+  <!-- Background Decoration -->
+  <div class="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-primary/5 to-transparent rounded-br-[100px]"></div>
+  <div class="absolute bottom-0 right-0 w-1/4 h-1/2 bg-gradient-to-l from-secondary/5 to-transparent rounded-tl-[100px]"></div>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <span class="inline-block text-primary font-semibold text-sm tracking-wider bg-primary/10 px-4 py-1.5 rounded-full mb-4">✦ جودة وتصنيع</span>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        رحلة التصنيع من <span class="text-red-800 relative">
+          الفكرة إلى التنفيذ
+          <svg class="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
+            <path d="M0 4C40 0 80 8 120 4C160 0 200 8 200 4" stroke="#0B5ED7" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+          </svg>
+        </span>
+      </h2>
+      <p class="text-gray-500 text-lg max-w-2xl mx-auto">منظومة تصنيع وتنفيذ متكاملة تجمع بين الخامات المختارة والماكينات الحديثة</p>
+    </div>
+
+   
+
+    <!-- Timeline Grid -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Item 01 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-primary/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-primary/20 group-hover:text-primary/30 transition-colors">01</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-primary transition-colors">خامات مختارة بعناية</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">نختار الخامات والإكسسوارات وفق معايير عملية تحقق المثالية والمظهر المتناسق.</p>
+        </div>
+      </div>
+
+      <!-- Item 02 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-secondary/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-secondary/20 group-hover:text-secondary/30 transition-colors">02</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-secondary transition-colors">ماكينات تصنيع حديثة</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">خطوط إنتاج متخصصة تساعد على ضبط القماش والشفطيات بدقة عالية.</p>
+        </div>
+      </div>
+
+      <!-- Item 03 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-green-500/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-green-500/20 group-hover:text-green-500/30 transition-colors">03</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-green-600 transition-colors">تصميم وتنفيذ</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">تحول الفكرة إلى مخطط قابل للتصنيع مع مراجعة التصاميم قبل بدء الإنتاج.</p>
+        </div>
+      </div>
+
+      <!-- Item 04 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-amber-500/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-amber-500/20 group-hover:text-amber-500/30 transition-colors">04</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-amber-600 transition-colors">جودة وتصنيع</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">نراقب الخامات والتجميع والتشطيب لضمان تنمية مختلفة ومتوافقة مع المشروع.</p>
+        </div>
+      </div>
+
+      <!-- Item 05 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-purple-500/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-purple-500/20 group-hover:text-purple-500/30 transition-colors">05</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-purple-600 transition-colors">التزام بالمواعيد</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">تنظيم واضح لمراحل العمل يساعد على تسليم المشروع ضمن الجدول المتفق عليه.</p>
+        </div>
+      </div>
+
+      <!-- Item 06 -->
+      <div class="group bg-section rounded-2xl p-6 hover:bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-50/80 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-rose-500/5 to-transparent rounded-bl-[40px] group-hover:scale-150 transition-transform duration-500"></div>
+        <div class="relative z-10">
+          <span class="text-4xl font-black text-rose-500/20 group-hover:text-rose-500/30 transition-colors">06</span>
+          <h4 class="text-lg font-bold mt-1 mb-2 group-hover:text-rose-600 transition-colors">ضمان 11 عام</h4>
+          <p class="text-gray-500 text-sm leading-relaxed">ضمان يدعم جودة التصنيع والتركيب ويمنح العمل تجربة أكثر ثقة بعد التسليم.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Featured Highlight Cards -->
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      
+      <!-- Card 1: جودة تبدأ من الخامة -->
+      <div class="col-span-1 md:col-span-2 bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-8 border border-primary/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-primary/20 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="award" class="w-6 h-6 text-primary"></i>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold text-primary mb-2">جودة تبدأ من الخامة وتنتهي بتسليم متقن</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">منظومة تصنيع وتنفيذ متكاملة تجمع بين الخامات المختلفة، الماكينات الحديثة، ضبط الجودة والالتزام بالمواعيد في كل مشروع.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: تصنيع داخلي -->
+      <div class="bg-gradient-to-br from-secondary/5 to-secondary/10 rounded-2xl p-8 border border-secondary/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-secondary/20 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="factory" class="w-6 h-6 text-secondary"></i>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold text-secondary mb-2">تصنيع داخل مصنعنا</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">تصنيع قابل للإلغاء قبل بدء التصنيع. لا تعويد خارجي مطلقاً.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Section: تركيب بريق + شهادات -->
+    <div class="grid md:grid-cols-2 gap-6 mt-6">
+      
+      <div class="bg-gradient-to-br from-emerald-500/5 to-emerald-500/10 rounded-2xl p-8 border border-emerald-500/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="shield" class="w-6 h-6 text-emerald-600"></i>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold text-emerald-600 mb-2">تركيب بريق متخصص وضمان واضح</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">فريق تركيب متخصص يضمن جودة التنفيذ مع ضمان واضح ومكتوب.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-500/5 to-blue-500/10 rounded-2xl p-8 border border-blue-500/20 hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
+        <div class="flex items-start gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="badge-check" class="w-6 h-6 text-blue-600"></i>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold text-blue-600 mb-2">شهادات معتمدة</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">FBA و SASO - خامات حاصلة على شهادات جودة معتمدة تضمن أعلى المعايير.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-16">
+      <a href="#contact" class="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-3.5 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+        اطلب استشارة مجانية
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Projects Gallery - Luxury Version -->
+<section id="gallery" class="py-20 bg-white relative overflow-hidden">
+  <!-- Background Decoration -->
+  <div class="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-primary/5 to-transparent rounded-full blur-3xl"></div>
+  <div class="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-secondary/5 to-transparent rounded-full blur-3xl"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <span class="inline-block text-primary font-semibold text-sm tracking-wider bg-primary/10 px-4 py-1.5 rounded-full mb-4">✦ إبداعنا في صور</span>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        معرض <span class="text-red-800 relative">
+          أعمالنا
+          <svg class="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
+            <path d="M0 4C40 0 80 8 120 4C160 0 200 8 200 4" stroke="#0B5ED7" stroke-width="3" stroke-linecap="round" opacity="0.3"/>
+          </svg>
+        </span>
+      </h2>
+      <p class="text-gray-500 text-lg max-w-2xl mx-auto">نفخر بتقديم أفضل أعمالنا التي تعكس جودة التصميم والتنفيذ</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="flex flex-wrap justify-center gap-2 md:gap-3 mb-10">
+      <button class="filter-btn active px-5 py-2 rounded-full text-sm font-semibold bg-primary text-white hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl" data-filter="all">جميع الأعمال</button>
+      <button class="filter-btn px-5 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-primary/10 hover:text-primary transition-all duration-300" data-filter="kitchen">مطابخ</button>
+      <button class="filter-btn px-5 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-primary/10 hover:text-primary transition-all duration-300" data-filter="bedroom">غرف نوم</button>
+      <button class="filter-btn px-5 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-primary/10 hover:text-primary transition-all duration-300" data-filter="interior">ديكورات</button>
+      <button class="filter-btn px-5 py-2 rounded-full text-sm font-semibold bg-gray-100 text-gray-700 hover:bg-primary/10 hover:text-primary transition-all duration-300" data-filter="wood">بدائل خشب</button>
+    </div>
+
+    <!-- Masonry Grid -->
+    <div class="masonry mt-8" id="galleryGrid">
+      
+      <!-- Item 1 - مطبخ مودرن -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="kitchen">
+        <div class="relative overflow-hidden">
+          <img src="../img/Layer 3.png" alt="مطبخ مودرن" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-primary/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">مطابخ</span>
+              <h3 class="text-xl font-bold text-white">مطبخ مودرن فاخر</h3>
+              <p class="text-gray-300 text-sm mt-1">تصميم عصري بأحدث الخطوط</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-primary transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 - غرفة ملابس -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="bedroom">
+        <div class="relative overflow-hidden">
+          <img src="../img/hero (2).webp" alt="غرفة ملابس" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-secondary/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">غرف نوم</span>
+              <h3 class="text-xl font-bold text-white">غرفة ملابس عصرية</h3>
+              <p class="text-gray-300 text-sm mt-1">تصميم أنيق مع مساحات تخزين ذكية</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-secondary transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 - تكسيات جدران -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="interior">
+        <div class="relative overflow-hidden">
+          <img src="../img/WhatsApp Image 2026-07-13 at 10.18.17 AM.jpeg" alt="تكسيات جدران" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-emerald-500/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">ديكورات</span>
+              <h3 class="text-xl font-bold text-white">تكسيات جدران فاخرة</h3>
+              <p class="text-gray-300 text-sm mt-1">أحدث التكسيات بتصاميم متنوعة</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-emerald-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Item 3 - تكسيات جدران -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="interior">
+        <div class="relative overflow-hidden">
+          <img src="../img/WhatsApp Image 2026-07-13 at 10.18.17 AM.jpeg" alt="تكسيات جدران" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-emerald-500/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">ديكورات</span>
+              <h3 class="text-xl font-bold text-white">تكسيات جدران فاخرة</h3>
+              <p class="text-gray-300 text-sm mt-1">أحدث التكسيات بتصاميم متنوعة</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-emerald-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4 - مطبخ كلاسيك -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="kitchen">
+        <div class="relative overflow-hidden">
+          <img src="../img/WhatsApp Image 2025-08-04 at 6.14.07 PM.jpeg" alt="مطبخ كلاسيك" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-amber-500/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">مطابخ</span>
+              <h3 class="text-xl font-bold text-white">مطبخ كلاسيك أنيق</h3>
+              <p class="text-gray-300 text-sm mt-1">فخامة الطراز الكلاسيكي بلمسات عصرية</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-amber-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5 - بديل الخشب -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="wood">
+        <div class="relative overflow-hidden">
+          <img src="../img/WhatsApp Image 2026-07-13 at 10.02.45 AM.jpeg" alt="بديل خشب" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-orange-500/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">بدائل خشب</span>
+              <h3 class="text-xl font-bold text-white">بديل الخشب الطبيعي</h3>
+              <p class="text-gray-300 text-sm mt-1">جمال الخشب مع متانة عالية</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-orange-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6 - ديكورات داخلية -->
+      <div class="gallery-item rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative group" data-category="interior">
+        <div class="relative overflow-hidden">
+          <img src="../img/WhatsApp Image 2026-07-13 at 10.18.18 AM.jpeg" alt="ديكور داخلي" class="w-full h-auto transition-transform duration-700 group-hover:scale-110"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
+            <div class="transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block bg-purple-500/90 text-white text-xs font-semibold px-3 py-1 rounded-full mb-2">ديكورات</span>
+              <h3 class="text-xl font-bold text-white">ديكورات داخلية فاخرة</h3>
+              <p class="text-gray-300 text-sm mt-1">تصاميم تعكس الذوق الرفيع</p>
+              <div class="flex items-center gap-3 mt-3">
+                <a href="#" class="inline-flex items-center gap-1 text-white bg-white/20 backdrop-blur-sm hover:bg-white/30 px-4 py-2 rounded-full text-sm transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  معاينة
+                </a>
+                <a href="#" class="inline-flex items-center gap-1 text-white hover:text-purple-400 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- View All Button -->
+    <div class="text-center mt-12">
+      <a href="#gallery" class="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-white px-8 py-3.5 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+        عرض جميع الأعمال
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+<script>
+    // ============================================
+// Gallery Filter
+// ============================================
+(function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      // Remove active class from all buttons
+      filterBtns.forEach(b => {
+        b.classList.remove('bg-primary', 'text-white');
+        b.classList.add('bg-gray-100', 'text-gray-700');
+      });
+      
+      // Add active class to clicked button
+      this.classList.add('bg-primary', 'text-white');
+      this.classList.remove('bg-gray-100', 'text-gray-700');
+      
+      const filter = this.dataset.filter;
+      
+      galleryItems.forEach(item => {
+        if (filter === 'all' || item.dataset.category === filter) {
+          item.style.display = 'block';
+          setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'scale(1)';
+          }, 100);
+        } else {
+          item.style.opacity = '0';
+          item.style.transform = 'scale(0.8)';
+          setTimeout(() => {
+            item.style.display = 'none';
+          }, 300);
+        }
+      });
+    });
+  });
+})();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    }
+    /* محتوى وهمي لإظهار التمرير */
+    .dummy-content {
+      flex: 1;
+      padding: 4rem 2rem;
+      text-align: center;
+      color: #1e293b;
+    }
+    .dummy-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .dummy-content p {
+      max-width: 600px;
+      margin: 0 auto 2rem;
+      color: #475569;
+    }
+    .dummy-content .badge {
+      display: inline-block;
+      background: #18487a;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border-radius: 40px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    /* ====== الفوتر المحسن ====== */
+    .footer-section {
+      background: #0b1e33; /* قاعدة داكنة */
+      color: #f1f5f9;
+      padding: 3rem 1rem 2rem;
+      position: relative;
+      overflow: hidden;
+      border-top: 3px solid #18487a;
+      box-shadow: 0 -10px 40px rgba(0,0,0,0.3);
+    }
+
+    /* اللون الأساسي الثابت #18487a (أزرق داكن) */
+    .bg-primary {
+      background-color: #18487a !important;
+    }
+    .text-primary {
+      color: #18487a !important;
+    }
+    .border-primary {
+      border-color: #18487a !important;
+    }
+    .from-primary {
+      --tw-gradient-from: #18487a !important;
+    }
+    .to-primary\/70 {
+      --tw-gradient-to: rgba(24, 72, 122, 0.7) !important;
+    }
+    .bg-primary\/10 {
+      background-color: rgba(24, 72, 122, 0.15) !important;
+    }
+    .bg-primary\/20 {
+      background-color: rgba(24, 72, 122, 0.25) !important;
+    }
+    .bg-primary\/5 {
+      background-color: rgba(24, 72, 122, 0.08) !important;
+    }
+    .bg-primary\/30 {
+      background-color: rgba(24, 72, 122, 0.3) !important;
+    }
+    .hover\:shadow-primary\/30:hover {
+      box-shadow: 0 12px 30px rgba(24, 72, 122, 0.4) !important;
+    }
+    .focus\:border-primary\/50:focus {
+      border-color: rgba(24, 72, 122, 0.6) !important;
+    }
+    .focus\:ring-primary\/20:focus {
+      --tw-ring-color: rgba(24, 72, 122, 0.25) !important;
+    }
+
+    /* اللون الأحمر الثابت (للتفاصيل) */
+    .text-red {
+      color: #dc2626 !important;
+    }
+    .bg-red\/10 {
+      background-color: rgba(220, 38, 38, 0.12) !important;
+    }
+    .bg-red\/5 {
+      background-color: rgba(220, 38, 38, 0.06) !important;
+    }
+    .border-red\/30 {
+      border-color: rgba(220, 38, 38, 0.3) !important;
+    }
+
+    /* تدرجات زخرفية */
+    .footer-section .bg-circle-1 {
+      position: absolute;
+      top: -120px;
+      right: -80px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(24,72,122,0.25) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .footer-section .bg-circle-2 {
+      position: absolute;
+      bottom: -100px;
+      left: -60px;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(220,38,38,0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .footer-section .line-glow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #18487a, #dc2626, #18487a, transparent);
+      opacity: 0.6;
+    }
+
+    .footer-section .relative {
+      position: relative;
+      z-index: 10;
+    }
+
+    /* اللوجو (شعار الشركة) */
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .logo-icon {
+      width: 256px;
+      height: 60px;
+      padding: 5px;
+      border-radius: 20px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(24, 72, 122, 0.4);
+      border: 1px solid rgba(255,255,255,0.08);
+      flex-shrink: 0;
+    }
+    .logo-icon svg {
+      width: 32px;
+      height: 32px;
+      fill: white;
+    }
+    .logo-text {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+    .logo-text .highlight {
+      color: #dc2626;
+      background: linear-gradient(135deg, #dc2626, #b91c1c);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* الشبكة */
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    /* تنسيق الأعمدة */
+    .col-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .col-title .accent {
+      display: inline-block;
+      width: 5px;
+      height: 24px;
+      border-radius: 8px;
+      background: #18487a;
+      margin-left: 0.3rem;
+    }
+    .col-title .accent-red {
+      background: #dc2626;
+    }
+
+    /* روابط سريعة */
+    .quick-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .quick-links li {
+      margin-bottom: 0.7rem;
+    }
+    .quick-links a {
+      color: #cbd5e1;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.25s ease;
+      font-size: 0.95rem;
+    }
+    .quick-links a:hover {
+      color: white;
+      transform: translateX(4px);
+    }
+    .quick-links a svg {
+      width: 16px;
+      height: 16px;
+      stroke: #18487a;
+      stroke-width: 2;
+      fill: none;
+      transition: 0.2s;
+    }
+    .quick-links a:hover svg {
+      stroke: #dc2626;
+    }
+
+    /* قائمة الخدمات */
+    .services-list {
+      list-style: none;
+      padding: 0;
+    }
+    .services-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      padding: 0.4rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+      transition: 0.2s;
+    }
+    .services-list li:hover {
+      color: white;
+    }
+    .services-list .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #18487a;
+      flex-shrink: 0;
+      transition: 0.2s;
+    }
+    .services-list li:hover .dot {
+      background: #dc2626;
+      transform: scale(1.3);
+    }
+
+    /* سوشيال ميديا - كبير وواضح */
+    .social-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.2rem 0 1.8rem;
+    }
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      transition: all 0.3s ease;
+      color: #94a3b8;
+      text-decoration: none;
+      backdrop-filter: blur(4px);
+    }
+    .social-link svg {
+      width: 30px;
+      height: 30px;
+      fill: currentColor;
+      transition: 0.3s;
+    }
+    .social-link:hover {
+      transform: translateY(-6px) scale(1.05);
+      background: #18487a;
+      color: white;
+      border-color: #18487a;
+      box-shadow: 0 12px 30px rgba(24, 72, 122, 0.35);
+    }
+    .social-link:hover svg {
+      fill: white;
+    }
+    .social-link.facebook:hover { background: #1877f2; border-color: #1877f2; }
+    .social-link.twitter:hover { background: #000; border-color: #000; }
+    .social-link.instagram:hover { background: #e1306c; border-color: #e1306c; }
+    .social-link.youtube:hover { background: #ff0000; border-color: #ff0000; }
+    .social-link.whatsapp:hover { background: #25d366; border-color: #25d366; }
+
+    /* النشرة البريدية */
+    .newsletter-box {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(6px);
+      border-radius: 24px;
+      padding: 1.5rem 1.2rem;
+      border: 1px solid rgba(255,255,255,0.06);
+      margin-top: 0.5rem;
+    }
+    .newsletter-box p {
+      font-size: 0.95rem;
+      color: #e2e8f0;
+      margin-bottom: 0.8rem;
+    }
+    .newsletter-box .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .newsletter-box input {
+      width: 100%;
+      padding: 0.9rem 1rem 0.9rem 2.8rem;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      color: white;
+      font-size: 0.9rem;
+      outline: none;
+      transition: 0.25s;
+    }
+    .newsletter-box input:focus {
+      border-color: #18487a;
+      box-shadow: 0 0 0 3px rgba(24,72,122,0.25);
+    }
+    .newsletter-box input::placeholder {
+      color: #64748b;
+    }
+    .newsletter-box .btn-subscribe {
+      width: 100%;
+      padding: 0.9rem;
+      background: #18487a;
+      border: none;
+      border-radius: 16px;
+      color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(24,72,122,0.3);
+    }
+    .newsletter-box .btn-subscribe:hover {
+      background: #0f3457;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(24,72,122,0.4);
+    }
+
+    /* الفوتر السفلي */
+    .bottom-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.2rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      margin-top: 1.5rem;
+    }
+    .bottom-footer .copy {
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .bottom-footer .copy strong {
+      color: #dc2626;
+      font-weight: 700;
+    }
+    .bottom-footer .legal {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem 2rem;
+    }
+    .bottom-footer .legal a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: 0.2s;
+      border-bottom: 1px solid transparent;
+    }
+    .bottom-footer .legal a:hover {
+      color: white;
+      border-bottom-color: #18487a;
+    }
+    #backToTop {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      color: #cbd5e1;
+      padding: 0.6rem 1.5rem 0.6rem 1.2rem;
+      border-radius: 40px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: 0.3s;
+      backdrop-filter: blur(4px);
+    }
+    #backToTop:hover {
+      background: #18487a;
+      color: white;
+      border-color: #18487a;
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(24,72,122,0.3);
+    }
+    #backToTop svg {
+      width: 18px;
+      height: 18px;
+      stroke: currentColor;
+      stroke-width: 2.5;
+      fill: none;
+    }
+
+    /* استجابة */
+    @media (min-width: 640px) {
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 2fr 1.2fr 1.2fr 1.8fr;
+      }
+      .bottom-footer {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    @media (max-width: 640px) {
+      .logo-text { font-size: 1.6rem; }
+      .logo-icon { width: 48px; height: 48px; }
+      .logo-icon svg { width: 26px; height: 26px; }
+      .social-link { width: 52px; height: 52px; }
+      .social-link svg { width: 26px; height: 26px; }
+    }
+
+    /* تأثيرات إضافية */
+    .footer-section a {
+      position: relative;
+    }
+    .footer-section a:not(.social-link)::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      right: 0;
+      width: 0;
+      height: 1px;
+      background: #dc2626;
+      transition: width 0.3s ease;
+    }
+    .footer-section a:not(.social-link):hover::after {
+      width: 100%;
+    }
+
+    /* تقليل الحركة */
+    @media (prefers-reduced-motion: reduce) {
+      .footer-section *,
+      .footer-section .social-link,
+      .footer-section a,
+      .footer-section .btn-subscribe {
+        transition: none !important;
+        transform: none !important;
+      }
+      .footer-section a:not(.social-link)::after {
+        display: none;
+      }
+      .social-link:hover {
+        transform: none !important;
+      }
+    }
+    ::selection {
+      background: #18487a;
+      color: white;
+    }
+  </style>
+
+  <!-- محتوى تجريبي -->
+  <div class="dummy-content">
+    <h1>✨ مطبخ أحلامك</h1>
+    <p>نصمم مساحات تعكس ذوقك مع لمسات عصرية وألوان ثابتة تعبر عن هويتك.</p>
+    <span class="badge">#أفضل_ابتكار</span>
+  </div>
+
+  <!-- ====== الفوتر المحترف ====== -->
+  <footer class="footer-section">
+    <!-- خلفيات زخرفية -->
+    <div class="bg-circle-1"></div>
+    <div class="bg-circle-2"></div>
+    <div class="line-glow"></div>
+
+    <div class="relative" style="max-width:1280px; margin:0 auto; padding:0 0.5rem;">
+      <!-- الشبكة الرئيسية -->
+      <div class="footer-grid">
+        <!-- العمود 1: الشعار + معلومات + لوجو -->
+        <div>
+          <div class="logo-wrapper">
+            <div class="logo-icon">
+              <img src="../img/logo.png" alt="">
+            </div>
+            
+          </div>
+          <p style="color:#94a3b8; margin:1rem 0 1.2rem; max-width:280px; line-height:1.7; font-size:0.95rem;">
+            نقدم حلولاً مبتكرة للمطابخ وغرف الملابس والتصميم الداخلي بجودة عالية ولمسات فنية.
+          </p>
+          <!-- معلومات الاتصال -->
+          <div style="display:flex; flex-direction:column; gap:0.6rem;">
+            <div style="display:flex; align-items:center; gap:0.7rem; color:#94a3b8; transition:0.2s;">
+              <span style="background:rgba(24,72,122,0.15); width:36px; height:36px; border-radius:40px; display:flex; align-items:center; justify-content:center;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#18487a" stroke-width="2">
+                  <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </span>
+              <span style="font-size:0.95rem;">+966 50 123 4567</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.7rem; color:#94a3b8; transition:0.2s;">
+              <span style="background:rgba(220,38,38,0.12); width:36px; height:36px; border-radius:40px; display:flex; align-items:center; justify-content:center;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2">
+                  <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </span>
+              <span style="font-size:0.95rem;">info@afdal-ebtikar.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- العمود 2: روابط سريعة -->
+        <div>
+          <div class="col-title">
+            <span class="accent"></span> روابط سريعة
+          </div>
+          <ul class="quick-links">
+            <li><a href="#"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg> الرئيسية</a></li>
+            <li><a href="#"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg> من نحن</a></li>
+            <li><a href="#"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg> الخدمات</a></li>
+            <li><a href="#"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg> المشاريع</a></li>
+            <li><a href="#"><svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg> اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <!-- العمود 3: خدماتنا -->
+        <div>
+          <div class="col-title">
+            <span class="accent accent-red"></span> خدماتنا
+          </div>
+          <ul class="services-list">
+            <li><span class="dot"></span> مطابخ مودرن</li>
+            <li><span class="dot" style="background:#dc2626;"></span> مطابخ كلاسيك</li>
+            <li><span class="dot"></span> غرف ملابس</li>
+            <li><span class="dot" style="background:#dc2626;"></span> مطابخ خشبية</li>
+            <li><span class="dot"></span> تصميم داخلي</li>
+          </ul>
+        </div>
+
+        <!-- العمود 4: سوشيال ميديا + نشرة -->
+        <div>
+          <div class="col-title">
+            <span class="accent"></span> تابعنا
+          </div>
+          <!-- أيقونات السوشيال ميديا كبيرة -->
+          <div class="social-wrapper">
+            <a href="#" class="social-link facebook" aria-label="فيسبوك">
+              <svg viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.99h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+            </a>
+            <a href="#" class="social-link twitter" aria-label="تويتر">
+              <svg viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.104c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.829-3.572 13.897 13.897 0 001.516-6.535c0-.209-.007-.418-.022-.627A9.92 9.92 0 0024 4.557z"/></svg>
+            </a>
+            <a href="#" class="social-link instagram" aria-label="انستغرام">
+              <svg viewBox="0 0 24 24"><path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.067-.06-1.407-.06-4.123v-.08c0-2.643.012-2.987.06-4.043.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772 4.902 4.902 0 011.772-1.153c.636-.247 1.363-.416 2.427-.465C9.537 2.013 9.877 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm5.5-4.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/></svg>
+            </a>
+            <a href="#" class="social-link youtube" aria-label="يوتيوب">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+            <a href="#" class="social-link whatsapp" aria-label="واتساب">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+
+          <!-- نشرة بريدية -->
+          <div class="newsletter-box">
+            <p>📬 اشترك في النشرة البريدية</p>
+            <form class="input-group">
+              <div style="position:relative;">
+                <input type="email" placeholder="بريدك الإلكتروني" required />
+                <svg style="position:absolute; right:1rem; top:50%; transform:translateY(-50%); width:18px; height:18px; stroke:#64748b; stroke-width:2; fill:none;" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <button type="submit" class="btn-subscribe">اشتراك</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- الفوتر السفلي -->
+      <div class="bottom-footer">
+        <div class="copy">
+          © 2025 <strong>أفضل ابتكار</strong>. جميع الحقوق محفوظة
+        </div>
+        <div class="legal">
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">الشروط والأحكام</a>
+          <a href="#">خريطة الموقع</a>
+        </div>
+        <button id="backToTop">
+          <svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+          العودة للأعلى
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      // زر العودة للأعلى
+      const backBtn = document.getElementById('backToTop');
+      if (backBtn) {
+        backBtn.addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        // إظهار/إخفاء (اختياري)
+        window.addEventListener('scroll', function() {
+          if (window.scrollY > 400) {
+            backBtn.style.opacity = '1';
+          } else {
+            backBtn.style.opacity = '0.7';
+          }
+        });
+      }
+
+      // معالجة النشرة البريدية
+      const form = document.querySelector('.newsletter-box form');
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const input = this.querySelector('input[type="email"]');
+          const btn = this.querySelector('.btn-subscribe');
+          if (input && input.value.trim()) {
+            const original = btn.textContent;
+            btn.textContent = '✅ تم الاشتراك';
+            btn.style.background = '#1e7e34';
+            setTimeout(() => {
+              btn.textContent = original;
+              btn.style.background = '';
+              input.value = '';
+            }, 3000);
+          }
+        });
+      }
+
+      // تأثير بسيط عند التمرير (ظهور الأعمدة)
+      const footer = document.querySelector('.footer-section');
+      if (footer) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const cols = entry.target.querySelectorAll('.footer-grid > div');
+              cols.forEach((col, idx) => {
+                col.style.opacity = '0';
+                col.style.transform = 'translateY(16px)';
+                col.style.transition = `all 0.5s ease-out ${idx * 0.08}s`;
+                setTimeout(() => {
+                  col.style.opacity = '1';
+                  col.style.transform = 'translateY(0)';
+                }, 80);
+              });
+            }
+          });
+        }, { threshold: 0.15 });
+        observer.observe(footer);
+      }
+    })();
+  </script>
+
+
+  </main>
+
+  <script>
+    // Lucide icons
+    lucide.createIcons();
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // Counter Animation
+    const counters = document.querySelectorAll('.counter-number');
+    const options = { threshold: 0.5 };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.dataset.target);
+          let current = 0;
+          const step = Math.ceil(target / 60);
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) { el.textContent = target; clearInterval(timer); }
+            else el.textContent = current;
+          }, 20);
+          observer.unobserve(el);
+        }
+      });
+    }, options);
+    counters.forEach(c => observer.observe(c));
+
+    // Testimonials slider
+    const track = document.getElementById('testimonialTrack');
+    const prevBtn = document.getElementById('prevTestimonial');
+    const nextBtn = document.getElementById('nextTestimonial');
+    let slideIndex = 0;
+    const slides = track.children;
+    const slideCount = slides.length;
+    function updateSlider() {
+      const cardWidth = slides[0].offsetWidth || track.parentElement.offsetWidth / 3;
+      track.style.transform = `translateX(${-slideIndex * cardWidth}px)`;
+    }
+    nextBtn.addEventListener('click', () => { slideIndex = (slideIndex + 1) % slideCount; updateSlider(); });
+    prevBtn.addEventListener('click', () => { slideIndex = (slideIndex - 1 + slideCount) % slideCount; updateSlider(); });
+    window.addEventListener('resize', updateSlider);
+    setTimeout(updateSlider, 200);
+
+    // Navbar blur on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 30) nav.classList.add('shadow-sm', 'border-b', 'border-gray-200/30');
+      else nav.classList.remove('shadow-sm', 'border-b', 'border-gray-200/30');
+    });
+
+    // Ripple effect
+    document.querySelectorAll('.ripple').forEach(el => {
+      el.addEventListener('mouseenter', (e) => {
+        const rect = el.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        el.style.setProperty('--x', x + '%');
+        el.style.setProperty('--y', y + '%');
+      });
+    });
+  </script>
+</body>
+</html>
